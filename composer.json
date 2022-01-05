@@ -1,0 +1,21 @@
+{
+    "name": "gb-service/provider",
+    "description": "rpc service provider",
+    "type": "l",
+    "require": {
+        "php": ">=7.4"
+    },
+    "license": "hyperf",
+    "autoload": {
+        "psr-4": {
+            "GbService\\Provider\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yizhong",
+            "email": "yizhong@jssns.cn"
+        }
+    ],
+    "minimum-stability": "dev"
+}
