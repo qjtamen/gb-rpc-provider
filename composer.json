@@ -5,7 +5,7 @@
     "require": {
         "php": ">=7.4"
     },
-    "license": "gb-zhy",
+    "license": "proprietary",
     "autoload": {
         "psr-4": {
             "GbService\\Provider\\": "src/"
