@@ -6,7 +6,7 @@
  * @DateTime  2022/3/18/14:13
  */
 
-namespace App\Rpc;
+namespace GbService\Provider;
 
 interface SsoProviderServiceInterface
 {
