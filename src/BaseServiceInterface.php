@@ -18,7 +18,7 @@ interface BaseServiceInterface
      * @param string $appKey 应用KEY
      * @return object\string
      */
-    public function addBaseInfo(string $jsonArr, int $dataType = 0, int $appId, string $appKey): string;
+    public function addBaseInfo(string $jsonArr, int $dataType = 0, int $appId=0, string $appKey=''): string;
 
     /**
      * 数据校验更新审核
@@ -28,5 +28,5 @@ interface BaseServiceInterface
      * @param string $appKey 应用KEY
      * @return object\string
      */
-    public function updateBaseInfo(string $jsonArr, int $dataType = 0, int $appId, string $appKey): string;
+    public function updateBaseInfo(string $jsonArr, int $dataType = 0, int $appId=0, string $appKey=''): string;
 }
