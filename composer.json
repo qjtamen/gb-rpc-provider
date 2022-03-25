@@ -17,6 +17,10 @@
             "email": "yizhong@jssns.cn"
         }
     ],
-    "minimum-stability": "1.0.1-dev"
-   
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "10.0.x-dev"
+        }
+    }
 }
