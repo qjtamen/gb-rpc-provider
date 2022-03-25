@@ -17,6 +17,6 @@
             "email": "yizhong@jssns.cn"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "1.0.1-dev",
    
 }
